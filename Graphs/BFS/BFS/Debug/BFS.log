@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\User\source\repos\BFS\BFS\main.cpp(13,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\BFS\BFS\main.cpp(45,20): warning C4018: <: несоответствие типов со знаком и без знака
+  BFS.vcxproj -> C:\Users\User\source\repos\BFS\Debug\BFS.exe
