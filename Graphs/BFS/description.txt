@@ -1,5 +1,5 @@
 Graph traversal algorithm. 
-@hat do we need:
+What do we need:
 A queue, an array for already-viewed vertices, 
 an array (index is the number of vertex) 
 with distances from the current vertex (by index) 
