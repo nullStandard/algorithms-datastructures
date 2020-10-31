@@ -17,4 +17,4 @@ If the infinity (999) - infinity is changed by the value
 5. Add the considered vertex to the array of visited vertices.
 Move to paragraph 2.
 
-If the line is empty, then we’ve bypassed the graph.
+If the queue is empty, then we’ve bypassed the graph.
