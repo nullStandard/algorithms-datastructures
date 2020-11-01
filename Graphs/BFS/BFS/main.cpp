@@ -4,7 +4,8 @@
 #include <queue>
 #include <algorithm>
 
-void BFS(std::map<int, std::vector<int>>& graph)
+// breadth-first search algorithm with the distance calculating
+void BFS(std::map<int, std::vector<int>>& graph, int start)
 {
 	std::queue<int> q;
 	std::vector<int> used;
@@ -13,7 +14,7 @@ void BFS(std::map<int, std::vector<int>>& graph)
 	for (int i = 0; i < graph.size(); ++i)
 		dist.emplace_back(999);
 
-	auto it = graph.begin();
+	auto it = graph.find(start);
 	q.emplace(it->first);
 
 	dist[it->first] = 0;
@@ -68,8 +69,14 @@ int main()
 		std::cout << std::endl;
 	}
 	std::cout << std::endl;
-	
-	BFS(graph);
+
+	std::cout << "Enter the initial vertex: ";
+
+	// starting vertex
+	int start;
+	std::cin >> start;
+
+	BFS(graph, start);
 
 	system("pause");
 }

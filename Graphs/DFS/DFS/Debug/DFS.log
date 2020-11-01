@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\User\Documents\GitHub\algorithms-datastructures\Graphs\DFS\DFS\main.cpp(11,3): warning C4091: static : пропускается слева от "DFS::Colors", когда ни одна переменная не объявлена
+D:\User\Documents\GitHub\algorithms-datastructures\Graphs\DFS\DFS\main.cpp(15,20): warning C4018: <: несоответствие типов со знаком и без знака
+  DFS.vcxproj -> D:\User\Documents\GitHub\algorithms-datastructures\Graphs\DFS\Debug\DFS.exe
