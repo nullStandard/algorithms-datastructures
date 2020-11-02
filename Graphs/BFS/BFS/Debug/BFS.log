@@ -1,4 +1,4 @@
 ﻿  main.cpp
-D:\User\Documents\GitHub\algorithms-datastructures\Graphs\BFS\BFS\main.cpp(14,20): warning C4018: <: несоответствие типов со знаком и без знака
-D:\User\Documents\GitHub\algorithms-datastructures\Graphs\BFS\BFS\main.cpp(44,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\User\Documents\GitHub\algorithms-datastructures\Graphs\BFS\BFS\main.cpp(16,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\User\Documents\GitHub\algorithms-datastructures\Graphs\BFS\BFS\main.cpp(46,20): warning C4018: <: несоответствие типов со знаком и без знака
   BFS.vcxproj -> D:\User\Documents\GitHub\algorithms-datastructures\Graphs\BFS\Debug\BFS.exe

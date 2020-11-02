@@ -1,2 +1,5 @@
-﻿  main.cpp
-  List.vcxproj -> C:\Users\User\source\repos\List\Debug\List.exe
+﻿  List.cpp
+  main.cpp
+  Создание кода...
+D:\User\Documents\GitHub\algorithms-datastructures\List\List\List.cpp(128): warning C4715: List::operator[]: значение возвращается не при всех путях выполнения
+  List.vcxproj -> D:\User\Documents\GitHub\algorithms-datastructures\List\Debug\List.exe

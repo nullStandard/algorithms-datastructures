@@ -1,18 +1,20 @@
 #include <iostream>
-#include <map>
+#include <unordered_map>
 #include <vector>
 #include <queue>
 #include <algorithm>
 
+constexpr auto INF = 999;
+
 // breadth-first search algorithm with the distance calculating
-void BFS(std::map<int, std::vector<int>>& graph, int start)
+void BFS(std::unordered_map<int, std::vector<int>>& graph, int start)
 {
 	std::queue<int> q;
 	std::vector<int> used;
 	std::vector<int> dist;
 
 	for (int i = 0; i < graph.size(); ++i)
-		dist.emplace_back(999);
+		dist.emplace_back(INF);
 
 	auto it = graph.find(start);
 	q.emplace(it->first);
@@ -34,7 +36,7 @@ void BFS(std::map<int, std::vector<int>>& graph, int start)
 			for (auto& i : it->second)
 			{
 				q.push(i);
-				if (dist[i] == 999)
+				if (dist[i] == INF)
 					dist[i] = dist[curr] + 1;
 			}
 			used.emplace_back(curr);
@@ -50,7 +52,7 @@ void BFS(std::map<int, std::vector<int>>& graph, int start)
 
 int main()
 {
-	std::map<int, std::vector<int>> graph;
+	std::unordered_map<int, std::vector<int>> graph;
 
 	graph[0] = { 1, 2 };
 	graph[1] = { 2, 3 };
