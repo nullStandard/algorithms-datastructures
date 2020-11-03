@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\User\Documents\GitHub\algorithms-datastructures\Graphs\Dijkstra\Dijkstra\main.cpp(12,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\User\Documents\GitHub\algorithms-datastructures\Graphs\Dijkstra\Dijkstra\main.cpp(16,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\User\Documents\GitHub\algorithms-datastructures\Graphs\Dijkstra\Dijkstra\main.cpp(20,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\User\Documents\GitHub\algorithms-datastructures\Graphs\Dijkstra\Dijkstra\main.cpp(24,20): warning C4018: <: несоответствие типов со знаком и без знака
+  Dijkstra.vcxproj -> D:\User\Documents\GitHub\algorithms-datastructures\Graphs\Dijkstra\Debug\Dijkstra.exe
